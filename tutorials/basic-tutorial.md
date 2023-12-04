@@ -113,7 +113,11 @@ We now have a README file ready to be published with DataHub!
 
 ### Optional steps
 
-You can add as many markdown files to your GitHub repository as you like, and you can freely nest them in subdirectories. You can also enhance your content with other DataRich components and markdown features. See [[reference|reference page]] to learn more.
+You can add as many markdown files to your GitHub repository as you like, and you can freely nest them in subdirectories. You can also enhance your content with other DataRich components and markdown features.
+
+For a full list of supported markdown features visit https://flowershow.app/docs/syntax
+
+For a full list and API of the DataRich components visit https://storybook.portaljs.org/?path=/docs/components-table--docs
 
 ### Publish with Flowershow Cloud
 
