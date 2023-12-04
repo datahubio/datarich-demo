@@ -25,7 +25,6 @@ frictionless:
   views:
   - name: graph
     spec:
-      group: Date
       series:
       - Value
       type: line
