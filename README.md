@@ -42,7 +42,9 @@ Awesome, right? Even more awesome is that this chart is created by simply having
 
 You can check out the full source of the data-rich document you are reading [here](https://github.com/datopian/datarich-demo).
 
-More on available features and components in this [[reference|reference page]].
+For a full list of supported markdown features visit https://flowershow.app/docs/syntax
+
+For a full list and API of available data visualisation components visit https://storybook.portaljs.org/?path=/docs/components-table--docs
 
 ## What is a DataRich site?
 
