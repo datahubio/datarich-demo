@@ -226,7 +226,7 @@ Year,Cost
 
 ```
 
-We now have a README file ready to be used on DataHub. Let's visualize our creation.
+We now have a README file ready to be used on DataHub.
 
 ### Go to your project's page on DataHub
 
@@ -235,6 +235,10 @@ It's time to check the results. To do that, edit the following URL, replacing `{
 demo.datahub.io/@{'{'}owner{'}'}/{'{'}project{'}'}
 
 Finally, access the URL.
+
+### Extra steps
+
+You can add as many markdown files to your GitHub repository as you like, and you can freely nest them in subdirectories. You can also enhance your content with other DataRich components and markdown features. See [[reference|reference page]] to learn more.
 
 ___
 
