@@ -1,4 +1,5 @@
 ---
+excerpt: lalalalalal
 layout: datapackage
 frictionless:
   name: finance-vix
