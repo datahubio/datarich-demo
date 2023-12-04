@@ -1,6 +1,6 @@
 # Tutorial: Publishing DataRich Documents on DataHub (or Flowershow Cloud ❓❓❓)
 
-Hi, welcome to DataHub. In this tutorial, we are going to cover the basics of creating and publishing a DataRich document.
+Hi, welcome to DataHub. In this tutorial, we are going to cover the basics of creating and publishing DataRich documents.
 
 ## Steps
 
@@ -8,12 +8,12 @@ Hi, welcome to DataHub. In this tutorial, we are going to cover the basics of cr
 
 First, create a repo under your organisation or user in GitHub. DataHub (or Flowershow Cloud ❓❓❓) currently does not support private repos, so make sure this new repo is public.
 
-### Push a README.md file to the repo
+### Push a `README.md` file to the repo
 
 Now, let's start with creating a `README.md` file. In this file, feel free to use anything that markdown has to offer. For this tutorial, we are going to use the following basic structure:
 
 ```markdown
-# Personal Annual Costs
+# Climate Change: An Interactive Data Analysis
 
 This document tracks my personal annual costs.
 
