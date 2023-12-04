@@ -14,7 +14,7 @@ frictionless:
     format: csv
     mediatype: text/csv
     name: vix-daily
-    path: data/vix-daily.csv
+    path: vix-daily.csv
     profile: tabular-data-resource
     schema:
       fields:
