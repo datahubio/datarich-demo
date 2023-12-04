@@ -6,6 +6,8 @@ Welcome to DataRich Documents Demo!
 
 👉 [[tutorial|Check our tutorial to learn how to create and publish DataRich documents]]
 
+👉 [[story1|See example data analysis of climate change]]
+
 👉 [[reference|Features reference page]]
 ## But wait, what is a DataRich document?
 
