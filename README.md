@@ -49,4 +49,4 @@ More on available features and components in this [[reference|reference page]].
 
 A DataRich site is simply a GitHub repository with some DataRich and/or plain markdown documents, published with DataHub (or Flowershow Cloud ❓❓❓). That's right: you can take advantage of everything that GitHub offers in terms of versioning, change history, and so on, and transform your repo into a DataRich site in a few clicks.
 
-More on how to create your own DataRich projects in [tutorial|this tutorial].
+More on how to create your own DataRich sites in [[tutorial|this tutorial]].
