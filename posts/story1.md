@@ -17,7 +17,9 @@ In this analysis, we explore the global temperature trends over the past century
 
 ## Data Overview
 
-Our dataset comprises yearly average temperatures from 1920 to 2020, sourced from global meteorological organizations. The data reflects the mean surface temperature changes relative to the 20th-century average.
+Our dataset comprises yearly average temperatures from 1920 to 2020, sourced from global meteorological organisations. The data reflects the mean surface temperature changes relative to the 20th-century average.
+
+<Table url="https://raw.githubusercontent.com/datopian/datarich-demo/main/land-ocean-global-means.csv" />
 
 ## Temperature Trends Over Time
 
@@ -27,34 +29,12 @@ The chart below visualises global average temperature changes over the past cent
   data="https://raw.githubusercontent.com/datopian/datarich-demo/main/land-ocean-global-means.csv"
   title="Global Land-Ocean Annual Means"
   xAxis="Year"
-  yAxis="Mean"
+  yAxis="J-D"
 />
 
 ## Geographical Temperature Anomalies Distribution
 
 This map illustrates temperature anomalies by region for the year 2020.
-
-
-## Detailed Analysis
-
-This interactive element allows for a deeper dive into specific years or regions, providing a comprehensive view of global temperature changes.
-
-<VegaLite
-  spec={{
-    $schema: "https://vega.github.io/schema/vega-lite/v5.json",
-    data: {
-      url: "https://raw.githubusercontent.com/datopian/datarich-demo/main/demo.csv",
-    },
-    width: 600,
-    height: 250,
-    mark: "line",
-    encoding: {
-      x: { field: "Time", type: "temporal" },
-      y: { field: "Anomaly (deg C)", type: "quantitative" },
-      tooltip: { field: "Anomaly (deg C)", type: "quantitative" },
-    },
-  }}
-/>
 
 ## Conclusion
 
