@@ -7,7 +7,7 @@ layout: blog
 
 ![[climate-change.jpeg]]
 
-[Here is the source GitHub](https://github.com/datopian/datarich-demo) repository with the markdown files and assets used to render this site.
+[Here is the source file on GitHub](https://github.com/datopian/datarich-demo) repository with the markdown files and assets used to render this site.
 
 ## Table of Contents
 

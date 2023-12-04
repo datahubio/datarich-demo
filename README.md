@@ -2,11 +2,15 @@
 
 Welcome to DataRich Documents Demo!
 
-👉 [[datarich-tutorial|Check our tutorial to learn how to create and publish DataRich documents]]
+**Tutorials**:
 
-👉 [[story1|See example data analysis of climate change]]
+👨‍🎓 [[datarich-tutorial|Tutorial 1: Publishing DataRich Documents on DataHub
+👨‍🎓 [[frictionless-tutorial|Tutorial 2: Publishing a Frictionless Dataset on Datahub]]
 
-[[story2]]
+**Demo pages:**
+
+👀 [[story1|DataRich Document:  example data analysis of climate change]]
+👀 [[story1|Frictionless Datasets Document:  CBOE Volatility Index]]
 
 ## But wait, what is a DataRich document?
 

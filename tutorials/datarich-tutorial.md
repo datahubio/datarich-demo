@@ -128,6 +128,7 @@ For a full list and API of available data visualisation components visit https:/
 5. Click on "Create Site".
 6. Done! Now visit your site by clicking on the URL at the top of the site settings page.
 
+[[story1|👀 See an example DataRich markdown document rendered with Flowershow Cloud]]
 ___
 
 Cool, isn't it? Get in contact with us and let us know what you think!

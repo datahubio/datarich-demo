@@ -132,6 +132,26 @@ The `datapackage` layout will use all the data defined in the frontmatter to cre
 
 ```
 
+Of course you can combine use both the `datapackage` layout and extend it by adding other DataRich components and content below the frontmatter, in the markdown body.
+
+```markdown
+---
+layout: datapackage
+excerpt: Optional dataset description
+frictionless:
+  ...
+---
+
+## Chart ABC
+
+<FrictionlessView viewId={0} />
+
+Some more content here...
+
+## Some table
+
+<Table data={[...]} />
+```
 
 ### Optional steps
 
