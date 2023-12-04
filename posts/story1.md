@@ -17,7 +17,7 @@ In this analysis, we explore the global temperature trends over the past century
 
 ## Data Overview
 
-Our dataset comprises Global-mean monthly, seasonal, and annual temperature means from 1880 to present sourced from [NASA GISS Surface Temperature Analysis](https://data.giss.nasa.gov/gistemp/).
+Our dataset comprises Land-Ocean Temperature Index from 1880 to present sourced from [NASA GISS Surface Temperature Analysis](https://data.giss.nasa.gov/gistemp/).
 
 <Table url="https://raw.githubusercontent.com/datopian/datarich-demo/main/land-ocean-global-means.csv" />
 
@@ -31,10 +31,6 @@ The chart below visualises global yearly temperature means changes over the past
   xAxis="Year"
   yAxis="J-D"
 />
-
-## Geographical Temperature Anomalies Distribution
-
-This map illustrates temperature anomalies by region for the year 2020.
 
 ## Conclusion
 
