@@ -1,7 +1,5 @@
----
-title: DataRich Documents Demo
-layout: blog
----
+# DataRich Documents Demo
+
 Welcome to DataRich Documents Demo!
 
 👉 [[tutorial|Check our tutorial to learn how to create and publish DataRich documents]]
