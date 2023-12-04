@@ -53,4 +53,6 @@ frictionless:
     title: VIX - CBOE Volatility Index
 ---
 
-## 
+## Some extra content
+
+Here is some extra content written in the body of this markdown file.
