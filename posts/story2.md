@@ -1,4 +1,5 @@
 ---
+layout: datapackage
 frictionless:
   name: finance-vix
   title: VIX - CBOE Volatility Index
