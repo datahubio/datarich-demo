@@ -20,7 +20,7 @@ In this analysis, we explore the global temperature trends over the past century
 Our dataset comprises Land-Ocean Temperature Index from 1880 to present sourced from [NASA GISS Surface Temperature Analysis](https://data.giss.nasa.gov/gistemp/).
 
 <Table
-	url="https://raw.githubusercontent.com/datopian/datarich-demo/main/land-ocean-global-means.csv"
+	url="https://raw.githubusercontent.com/datopian/datarich-demo/main/data/land-ocean-global-means.csv"
 />
 
 ## Temperature Trends Over Time
@@ -28,7 +28,7 @@ Our dataset comprises Land-Ocean Temperature Index from 1880 to present sourced 
 The chart below visualises global yearly temperature means changes over the past century, highlighting the gradual increase.
 
 <LineChart 
-  data="https://raw.githubusercontent.com/datopian/datarich-demo/main/land-ocean-global-means.csv"
+  data="https://raw.githubusercontent.com/datopian/datarich-demo/main/data/land-ocean-global-means.csv"
   title="Global Land-Ocean Annual Means"
   xAxis="Year"
   yAxis="J-D"
