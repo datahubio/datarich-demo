@@ -35,7 +35,7 @@ The chart below visualises global average temperature changes over the past cent
 
 This map illustrates temperature anomalies by region for the year 2020.
 
-<OpenLayers data={temperatureByRegion2020} />
+<OpenLayers data={[]} />
 
 ## Detailed Analysis
 
