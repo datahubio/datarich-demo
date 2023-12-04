@@ -53,3 +53,5 @@ views:
 
 
 SOME CONTENT
+
+<FrictionlessView viewId={0} />
