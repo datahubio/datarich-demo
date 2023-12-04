@@ -27,10 +27,10 @@ frictionless:
     spec:
       group: Date
       series:
-      - VIX Close
+      - Value
       type: line
     specType: simple
-    title: VIX - CBOE Volatility Index
+    title: Dataset ABC
 ---
 
 ## Some extra content
