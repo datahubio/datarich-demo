@@ -1,6 +1,9 @@
-# Tutorial: Publishing a Frictionless Dataset on Datahub (or Flowershow Cloud ❓❓❓)
+# Tutorial 2: Publishing a Frictionless Dataset on Datahub (or Flowershow Cloud ❓❓❓)
 
 In this tutorial we are going to cover how you can publish a Frictionless Dataset on DataHub.
+
+> [!note]
+> If you haven't already, we highly recommend checking [[datarich-tutorial|Tutorial 1: Publishing DataRich Documents on DataHub]]
 
 ## What is a Frictionless dataset
 
@@ -16,85 +19,137 @@ In order to render the Frictionless Dataset on Datahub, we first have to create 
 
 You can also use a repository your created in the [[datarich-tutorial|previous tutorial]].)
 
-### Create a markdown file with Data Package metadata in the frontmatter
+### Create a markdown file with Frictionless Data Package yaml in the frontmatter
 
-Create a new markdown file in your repo and add the following frontmatter to it:
+Create a new markdown file in your repo and add the `frictionless` field with the following value to it:
 
 ```md
 ---
-
+frictionless:
+  name: dataset-abc
+  title: Dataset ABC
+  resources:
+  - dpp:streaming: true
+    encoding: utf-8
+    format: csv
+    mediatype: text/csv
+    name: dataset-abc
+    path: data/dataset-abc.csv
+    profile: tabular-data-resource
+    title: Dataset ABC
+    schema:
+      fields:
+      - format: any
+        name: Date
+        type: date
+      - format: default
+        name: Value
+        type: number
+      missingValues:
+      - ''
+  views:
+  - name: graph
+    spec:
+      group: Date
+      series:
+      - Value
+      type: line
+    specType: simple
+    title: Dataset ABC
 ---
 ```
 
-Note the "views" property in the above file. It determines what gets rendered in the visualisations section on DataHub. You can read more about Frictionless Views [here](https://specs.frictionlessdata.io/views/#specification). Currently, DataHub supports only line charts with the "simple" specType, but you can add other visualisations to the document in the README section using the LineChart, Vega, VegaLite, and Table components.
+### Add a dataset csv file
 
-Also, note that the `group` and `series` properties point to fields in the resource specified above. You can change that to modify the chart behavior.
-
-Since we are specifying a resource in the `datapackage.json` file, we also have to add the actual resource file to the repo. Create a `data` folder and inside it create a `vix-daily.csv` file with the following content:
+In the Frictionless Data Package yaml we are specifying a resource file `data/dataset-abc.csv`. Let's create this file in the `/data` folder of the repository with the following content:
 
 ```csv
-Date,VIX Open,VIX High,VIX Low,VIX Close
-2018-09-10,15.09,15.20,13.93,14.16
-2018-09-11,13.96,14.92,13.21,13.22
-2018-09-12,13.07,13.86,12.91,13.14
-2018-09-13,12.91,12.91,12.30,12.37
-2018-09-14,12.13,13.15,11.93,12.07
-2018-09-17,12.72,13.75,12.32,13.68
-2018-09-18,13.48,13.48,12.56,12.79
-2018-09-19,12.61,12.77,11.66,11.75
-2018-09-20,11.82,11.96,11.31,11.80
-2018-09-21,11.76,12.03,11.10,11.68
-2018-09-24,12.46,12.92,12.18,12.20
-2018-09-25,12.28,12.60,11.80,12.42
-2018-09-26,12.21,13.13,11.55,12.89
-2018-09-27,12.77,13.00,11.94,12.41
-2018-09-28,12.59,13.22,12.09,12.12
-2018-10-01,11.99,12.40,11.57,12.00
-2018-10-02,12.47,12.69,11.61,12.05
-2018-10-03,11.66,12.14,11.34,11.61
-2018-10-04,12.84,15.84,12.42,14.22
-2018-10-05,14.29,17.36,11.72,14.82
-2018-10-08,16.05,18.38,15.69,15.69
-2018-10-09,16.12,17.49,15.27,15.95
-2018-10-10,16.03,22.96,15.83,22.96
-2018-10-11,23.07,28.84,20.65,24.98
-2018-10-12,21.63,26.80,20.88,21.31
-2018-10-15,21.97,22.89,19.47,21.30
-2018-10-16,20.28,20.56,17.55,17.62
-2018-10-17,17.06,19.55,17.06,17.40
+Date,Value
+2018-09-10,10
+2018-09-11,11
+2018-09-12,13
+2018-09-13,14
+2018-09-14,8
+2018-09-17,9
+2018-09-18,7
+2018-09-19,11
+2018-09-20,18
 ```
 
-You can push those two files we created to the repo and we are good to go. Now, let's create the README.md file.
+### Visualise the data wit a FrictionlessView component
 
-## Push a README.md file to the repo
-
-Create a README.md and add the following content to it.
+Let's add some content below our frontmatter as well as a `FrictionlessView` component to plot the dataset.
 
 ```markdown 
-CBOE Volatility Index (VIX) time-series dataset including daily open, close, high and low. The CBOE Volatility Index (VIX) is a key measure of market expectations of near-term volatility conveyed by S&P 500 stock index option prices introduced in 1993.
+---
+frictionless:
+  name: dataset-abc
+  title: Dataset ABC
+  ...
+---
 
-## Daily chart
+## Chart ABC
 
 <FrictionlessView viewId={0} />
 
+Some more content here...
+
 ```
 
-Note that we are now using the `FrictionlessView` data component. This data component renders views specified on the `datapackage.json` file by index. You can also make this component full width by setting the `fullWidth` property:
+This data component renders views specified on the in the DataPackage `views` filed by index.
 
-```jsx
-<FrictionlessView fullWidth viewId={0} />
+You can read more about Frictionless Views [here](https://specs.frictionlessdata.io/views/#specification). Currently, DataHub supports only line charts with the "simple" specType, but you can add other visualisations to the document in the README section using the LineChart, Vega, VegaLite, and Table components.
+
+### ...or use the built-in layout for the document
+
+You can also use a built-in `datapackage` layout to render Data Package resources previews and basic charts from Data Package views. To use it, add the following fields to the frontmatter:
+
+```markdown
+---
+layout: datapackage
+excerpt: Optional dataset description
+frictionless:
+  ...
+---
 ```
 
-Push this file to the repo and move to the next step.
+The `datapackage` layout will use all the data defined in the frontmatter to create a page with the following structure:
 
-## Go to the URL
+```md
+{frictionless title}
+{excerpt}
 
-The repo is ready, it's time to see how it looks on DataHub. Replace `{owner}` with your GitHub organization or user id and `{project}` with the name of the repo on the following URL and access it:
+<graph from frictionless view 1>
+<graph from frictionless view 1>
+...
 
-demo.datahub.io/@{'{'}owner{'}'}/{'{'}project{'}'}
+## Data files
+{a table with all the resources listed in frictionless resources field}
 
-If everything is right, your project should look similar to this one: https://demo.datahub.io/@datahubio/tutorial-frictionless-project-demo
+<table with frictionless resource 1 data>
+<table with frictionless resource 2 data>
+...
+
+```
+
+
+### Optional steps
+
+You can add as many markdown files to your GitHub repository as you like, and you can freely nest them in subdirectories. You can also enhance your content with other DataRich components and markdown features.
+
+For a full list of supported markdown features visit https://flowershow.app/docs/syntax
+
+For a full list and API of available data visualisation components visit https://storybook.portaljs.org/?path=/docs/components-table--
+
+### Publish with Flowershow Cloud
+
+1. Sign in to https://cloud.flowershow.app/
+2. Click on "Create new site".
+3. Select your GitHub user/organisation.
+4. Select the repository you've just created and the branch you want to build your site off of.
+5. Click on "Create Site".
+6. Done! Now visit your site by clicking on the URL at the top of the site settings page.
 
 ___
 
-Feel free to get in contact with us and let us know what you think : ).
+Cool, isn't it? Get in contact with us and let us know what you think!

@@ -1,4 +1,4 @@
-# Tutorial: Publishing DataRich Documents on DataHub (or Flowershow Cloud ❓❓❓)
+# Tutorial 1: Publishing DataRich Documents on DataHub (or Flowershow Cloud ❓❓❓)
 
 Hi, welcome to DataHub. In this tutorial, we are going to cover the basics of creating and publishing DataRich documents.
 
