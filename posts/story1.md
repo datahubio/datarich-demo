@@ -19,7 +19,9 @@ In this analysis, we explore the global temperature trends over the past century
 
 Our dataset comprises Land-Ocean Temperature Index from 1880 to present sourced from [NASA GISS Surface Temperature Analysis](https://data.giss.nasa.gov/gistemp/).
 
-<Table url="https://raw.githubusercontent.com/datopian/datarich-demo/main/land-ocean-global-means.csv" />
+<Table
+	url="https://raw.githubusercontent.com/datopian/datarich-demo/main/land-ocean-global-means.csv"
+/>
 
 ## Temperature Trends Over Time
 
