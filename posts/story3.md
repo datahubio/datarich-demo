@@ -22,6 +22,15 @@ frictionless:
         type: number
       missingValues:
       - ''
+  views:
+  - name: graph
+    spec:
+      group: Date
+      series:
+      - VIX Close
+      type: line
+    specType: simple
+    title: VIX - CBOE Volatility Index
 ---
 
 ## Some extra content
