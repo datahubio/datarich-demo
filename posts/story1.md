@@ -26,9 +26,6 @@ The chart below visualises global average temperature changes over the past cent
 <LineChart 
   data="https://raw.githubusercontent.com/datopian/datarich-demo/main/land-ocean-global-means.csv"
   title="Global Land-Ocean Annual Means"
-  xAxis="Year"
-  yAxis="Mean"
-  fullWidth="true"
 />
 
 ## Geographical Temperature Anomalies Distribution
