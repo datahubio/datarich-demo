@@ -2,7 +2,7 @@
 
 Welcome to DataRich Documents Demo!
 
-👉 [[basic-tutorial|Check our tutorial to learn how to create and publish DataRich documents]]
+👉 [[datarich-tutorial|Check our tutorial to learn how to create and publish DataRich documents]]
 
 👉 [[story1|See example data analysis of climate change]]
 
@@ -52,4 +52,4 @@ For a full list and API of available data visualisation components visit https:/
 
 A DataRich site is simply a GitHub repository with some DataRich and/or plain markdown documents, published with DataHub (or Flowershow Cloud ❓❓❓). That's right: you can take advantage of everything that GitHub offers in terms of versioning, change history, and so on, and transform your repo into a DataRich site in a few clicks.
 
-More on how to create your own DataRich sites in [[basic-tutorial|this tutorial]].
+More on how to create your own DataRich sites in [[datarich-tutorial|this tutorial]].
