@@ -3,6 +3,7 @@
 Welcome to DataRich Documents Demo!
 
 👉 [[tutorial|Check our tutorial to learn how to create and publish DataRich documents]]
+
 👉 [[reference|Features reference page]]
 ## But wait, what is a DataRich document?
 
