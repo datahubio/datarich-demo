@@ -24,8 +24,11 @@ Our dataset comprises yearly average temperatures from 1920 to 2020, sourced fro
 The chart below visualises global average temperature changes over the past century, highlighting the gradual increase.
 
 <LineChart 
-  data={}
-  title="Global Temperature Trends"
+  data="https://raw.githubusercontent.com/datopian/datarich-demo/main/land-ocean-global-means.csv"
+  title="Global Land-Ocean Annual Means"
+  xAxis="Year"
+  yAxis="Mean"
+  fullWidth="true"
 />
 
 ## Geographical Temperature Anomalies Distribution
