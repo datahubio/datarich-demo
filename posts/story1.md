@@ -13,17 +13,17 @@ layout: blog
 
 ## Introduction
 
-In this analysis, we explore the global temperature trends over the past century. Utilising historical temperature data, we aim to understand how the Earth's climate has changed and identify patterns that might indicate future trends.
+In this analysis, we explore the global temperature trends over the past century. Utilising historical temperature data, we aim to understand how the Earth's surface temperature has changed and identify patterns that might indicate future trends.
 
 ## Data Overview
 
-Our dataset comprises yearly average temperatures from 1920 to 2020, sourced from global meteorological organisations. The data reflects the mean surface temperature changes relative to the 20th-century average.
+Our dataset comprises Global-mean monthly, seasonal, and annual temperature means from 1880 to present sourced from [NASA GISS Surface Temperature Analysis](https://data.giss.nasa.gov/gistemp/).
 
 <Table url="https://raw.githubusercontent.com/datopian/datarich-demo/main/land-ocean-global-means.csv" />
 
 ## Temperature Trends Over Time
 
-The chart below visualises global average temperature changes over the past century, highlighting the gradual increase.
+The chart below visualises global yearly temperature means changes over the past century, highlighting the gradual increase.
 
 <LineChart 
   data="https://raw.githubusercontent.com/datopian/datarich-demo/main/land-ocean-global-means.csv"
