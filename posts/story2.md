@@ -58,3 +58,5 @@ frictionless:
 ## Some extra content
 
 Here is some extra content written in the body of this markdown file.
+
+<FrictionlessView viewId={0} />
