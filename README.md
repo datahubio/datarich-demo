@@ -12,7 +12,7 @@ Welcome to DataRich Documents Demo!
 
 👀 [[story1|DataRich Document:  example data analysis of climate change]]
 
-👀 [[story1|Frictionless Datasets Document:  CBOE Volatility Index]]
+👀 [[story2|Frictionless Datasets Document:  CBOE Volatility Index]]
 
 ## But wait, what is a DataRich document?
 
