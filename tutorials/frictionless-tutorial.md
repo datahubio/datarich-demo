@@ -159,7 +159,7 @@ You can add as many markdown files to your GitHub repository as you like, and yo
 
 For a full list of supported markdown features visit https://flowershow.app/docs/syntax
 
-For a full list and API of available data visualisation components visit https://storybook.portaljs.org/?path=/docs/components-table--
+For a full list and API of available data visualisation components visit [https://storybook.portaljs.org](https://storybook.portaljs.org/)
 
 ### Publish with Flowershow Cloud
 
