@@ -1,4 +1,4 @@
-# Tutorial 2: Publishing a Frictionless Dataset on Datahub (or Flowershow Cloud ❓❓❓)
+# Tutorial 2: Publishing a Frictionless Dataset on Datahub
 
 In this tutorial we are going to cover how you can publish a Frictionless Dataset on DataHub.
 
@@ -161,7 +161,7 @@ For a full list of supported markdown features visit https://flowershow.app/docs
 
 For a full list and API of available data visualisation components visit [https://storybook.portaljs.org](https://storybook.portaljs.org/)
 
-### Publish with Flowershow Cloud
+### Publish with DataHub
 
 1. Sign in to https://cloud.flowershow.app/
 2. Click on "Create new site".
@@ -170,7 +170,7 @@ For a full list and API of available data visualisation components visit [https:
 5. Click on "Create Site".
 6. Done! Now visit your site by clicking on the URL at the top of the site settings page.
 
-[[story2|👀 See an example Frictionless Dataset document rendered with Flowershow Cloud]]
+[[story2|👀 See an example DataRich Dataset published with DataHub]]
 ___
 
 Cool, isn't it? Get in contact with us and let us know what you think!

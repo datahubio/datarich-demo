@@ -1,4 +1,4 @@
-# Tutorial 1: Publishing DataRich Documents on DataHub (or Flowershow Cloud ❓❓❓)
+# Tutorial 1: Publishing DataRich Documents on DataHub
 
 Hi, welcome to DataHub. In this tutorial, we are going to cover the basics of creating and publishing DataRich documents.
 
@@ -6,7 +6,7 @@ Hi, welcome to DataHub. In this tutorial, we are going to cover the basics of cr
 
 ### Create a GitHub repo
 
-First, create a repo under your organisation or user in GitHub. DataHub (or Flowershow Cloud ❓❓❓) currently does not support private repos, so make sure this new repo is public.
+First, create a repo under your organisation or user in GitHub. DataHub currently does not support private repos, so make sure this new repo is public.
 
 ### Push a `README.md` file to the repo
 
@@ -119,7 +119,7 @@ For a full list of supported markdown features visit https://flowershow.app/docs
 
 For a full list and API of available data visualisation components visit [https://storybook.portaljs.org](https://storybook.portaljs.org/)
 
-### Publish with Flowershow Cloud
+### Publish with DataHub
 
 1. Sign in to https://cloud.flowershow.app/
 2. Click on "Create new site".
@@ -128,7 +128,7 @@ For a full list and API of available data visualisation components visit [https:
 5. Click on "Create Site".
 6. Done! Now visit your site by clicking on the URL at the top of the site settings page.
 
-[[story1|👀 See an example DataRich markdown document rendered with Flowershow Cloud]]
+[[story1|👀 See an example DataRich document]]
 ___
 
 Cool, isn't it? Get in contact with us and let us know what you think!

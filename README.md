@@ -4,25 +4,25 @@ Welcome to DataRich Documents Demo!
 
 **Tutorials**:
 
-👨‍🎓 [[datarich-tutorial|Tutorial 1: Publishing DataRich Documents on DataHub]]
+👨‍🎓 [[datarich-tutorial|Tutorial 1: Publishing DataRich Stories on DataHub]]
 
-👨‍🎓 [[frictionless-tutorial|Tutorial 2: Publishing a Frictionless Dataset on Datahub]]
+👨‍🎓 [[frictionless-tutorial|Tutorial 2: Publishing DataRich Datasets on DataHub]]
 
 **Demo pages:**
 
-👀 [[story1|DataRich Document:  example data analysis of climate change]]
+👀 [[story1|DataRich Story Example]]
 
-👀 [[story2|Frictionless Datasets Document:  CBOE Volatility Index]]
+👀 [[story2|DataRich Dataset Example]]
 
 ## But wait, what is a DataRich document?
 
-A DataRich document is one in which the writer can easily mix formatted text content with data visualisations. This means that you don't have to code or embed your charts and tables; they can be added to the document with a very simple syntax, either by passing inline data or simply referencing your data files. What you end up with is a plain text, human-readable document enriched with data visualisations, that is simple to edit and looks awesome when rendered in DataHub (or Flowershow Cloud ❓❓❓)!
+A DataRich document is one in which the writer can easily mix formatted text content with data visualisations. This means that you don't have to code or embed your charts and tables; they can be added to the document with a very simple syntax, either by passing inline data or simply referencing your data files. What you end up with is a plain text, human-readable document enriched with data visualisations, that is simple to edit and looks awesome when published with DataHub.
 
-## What does this syntax look like?
+## What does the syntax look like?
 
 The structure and text formatting of the documents are created with markdown (take a look at [this guide](https://www.datopian.com/playbook/markdown) to learn more about markdown). But it's not just markdown; it's markdown on steroids: writers are capable of easily adding tables of contents, mathematical formulas, data visualisations, and more!
 
-And guess what? What you are reading right now is a DataRich document powered by DataHub (or Flowershow Cloud ❓❓❓). That's why we can do this:
+And guess what? What you are reading right now is a DataRich document powered by DataHub. That's why we can do this:
 
 <LineChart data={
     [
@@ -53,9 +53,3 @@ You can check out the full source of the data-rich document you are reading [her
 For a full list of supported markdown features visit https://flowershow.app/docs/syntax
 
 For a full list and API of available data visualisation components visit https://storybook.portaljs.org/?path=/docs/components-table--docs
-
-## What is a DataRich site?
-
-A DataRich site is simply a GitHub repository with some DataRich and/or plain markdown documents, published with DataHub (or Flowershow Cloud ❓❓❓). That's right: you can take advantage of everything that GitHub offers in terms of versioning, change history, and so on, and transform your repo into a DataRich site in a few clicks.
-
-More on how to create your own DataRich sites in [[datarich-tutorial|this tutorial]].
