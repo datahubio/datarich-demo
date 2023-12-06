@@ -22,7 +22,7 @@ A DataRich document is one in which the writer can easily mix formatted text con
 
 ## What does the syntax look like?
 
-The structure and text formatting of the documents are created with markdown (take a look at [this guide](https://www.datopian.com/playbook/markdown) to learn more about markdown). But it's not just markdown; it's markdown on steroids: writers are capable of easily adding tables of contents, mathematical formulas, data visualisations, and more!
+The structure and text formatting of the documents are created with markdown. But it's not just markdown; it's markdown on steroids: writers are capable of easily adding tables of contents, mathematical formulas, data visualisations, and more!
 
 And guess what? What you are reading right now is a DataRich document powered by DataHub. That's why we can do this:
 
