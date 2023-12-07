@@ -16,7 +16,7 @@ Welcome to DataRich Documents Demo!
 
 ## But wait, what is a DataRich document?
 
-![[Pasted image 20231206154157.png]]
+![[data-rich-document.png]]
 
 A DataRich document is one in which the writer can easily mix formatted text content with data visualisations. This means that you don't have to code or embed your charts and tables; they can be added to the document with a very simple syntax, either by passing inline data or simply referencing your data files. What you end up with is a plain text, human-readable document enriched with data visualisations, that is simple to edit and looks awesome when published with DataHub.
 
