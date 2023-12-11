@@ -36,7 +36,24 @@ This line chart depicts the trend in total CO2 emissions over time, highlighting
 
 ## Emissions by Fuel Type
 
-The following bar chart compares emissions from different sources for the most recent year available in the dataset. It illustrates the relative contribution of each source to the total emissions.
+The following bar chart compares emissions from different sources in 2010. It illustrates the relative contribution of each source to the total emissions.
+
+<VegaLite
+  spec={{
+    $schema: "https://vega.github.io/schema/vega-lite/v5.json",
+    description: "Emissions distribution in 2010",
+    data: {
+      url: "https://raw.githubusercontent.com/datopian/datarich-demo/demo/data/global-co2-emissions-2010.csv",
+    },
+    width: 600,
+    height: 250,
+    mark: "bar",
+    encoding: {
+      x: { field: "Type", type: "nominal" },
+      y: { field: "Amount", type: "quantitative" }
+    },
+  }}
+/>
 
 ## Conclusion
 
