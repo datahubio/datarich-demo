@@ -1,9 +1,9 @@
-# Tutorial 2: Publishing a Frictionless Dataset on Datahub
+# Tutorial 2: Publishing datasets made simple with DataHub
 
 In this tutorial we are going to cover how you can publish a Frictionless Dataset on DataHub.
 
 > [!note]
-> If you haven't already, we highly recommend checking [[datarich-tutorial|Tutorial 1: Publishing DataRich Documents on DataHub]]
+> If you haven't already, we highly recommend first checking [[datarich-tutorial|Tutorial 1: Publishing DataRich Documents on DataHub]]
 
 ## What is a Frictionless dataset
 

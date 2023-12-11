@@ -4,27 +4,29 @@ Welcome to DataRich Documents Demo!
 
 **Tutorials**:
 
-👨‍🎓 [[datarich-tutorial|Tutorial 1: Publishing DataRich Stories on DataHub]]
+👨‍🎓 [[datarich-tutorial|Publish data-rich stories with DataHub]]
 
-👨‍🎓 [[frictionless-tutorial|Tutorial 2: Publishing DataRich Datasets on DataHub]]
+👨‍🎓 [[frictionless-tutorial|Publishing datasets made simple with DataHub - just push a CSV + README to GitHub]]
 
 **Demo pages:**
 
-👀 [[story1|DataRich Story Example]]
+👀 [[story1|Data-rich story example]]
 
-👀 [[story2|DataRich Dataset Example]]
+👀 [[story2|Dataset example]]
 
 ## But wait, what is a DataRich document?
 
 ![[data-rich-document.png]]
 
-A DataRich document is one in which the writer can easily mix formatted text content with data visualisations. This means that you don't have to code or embed your charts and tables; they can be added to the document with a very simple syntax, either by passing inline data or simply referencing your data files. What you end up with is a plain text, human-readable document enriched with data visualisations, that is simple to edit and looks awesome when published with DataHub.
+A data-rich document is just a classic markdown document but with some superpowers to make data storytelling and analysis easy to do.
+
+And so, in data-rich document the writer can easily mix formatted text content with data visualisations. This means that you don't have to code or embed your charts and tables; they can be added to the document with a very simple syntax, either by passing inline data or simply referencing your data files. What you end up with is a plain text, human-readable document enriched with data visualisations, that is simple to edit and looks awesome when published with DataHub.
 
 ## What does the syntax look like?
 
-The structure and text formatting of the documents are created with markdown. But it's not just markdown; it's markdown on steroids: writers are capable of easily adding tables of contents, mathematical formulas, data visualisations, and more!
+The structure and text formatting of the documents are created with simple markdown. But it's not just markdown; it's markdown on steroids: writers are capable of easily adding tables of contents, mathematical formulas, data visualisations, and more!
 
-And guess what? What you are reading right now is a DataRich document powered by DataHub. That's why we can do this:
+And guess what? What you are reading right now is just his kind of data-rich document with rendering powered by DataHub. That's why we can do this:
 
 <LineChart data={
     [

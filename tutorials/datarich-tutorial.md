@@ -1,4 +1,4 @@
-# Tutorial 1: Publishing DataRich Documents on DataHub
+# Tutorial 1: Publish data-rich stories with DataHub
 
 Hi, welcome to DataHub. In this tutorial, we are going to cover the basics of creating and publishing DataRich documents.
 
