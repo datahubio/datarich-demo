@@ -20,7 +20,7 @@ This analysis explores the trends in global CO2 emissions from 1751, examining t
 Data comes from the [Carbon Dioxide Information Analysis Center (CDIAC)](http://cdiac.esd.ornl.gov/).
 
 <FlatUiTable
-	url="https://raw.githubusercontent.com/datopian/datarich-demo/demo/data/global-co2-emissions.csv"
+	url="https://raw.githubusercontent.com/datopian/datarich-demo/main/data/global-co2-emissions.csv"
 />
 
 ## Total Emissions Over Time
@@ -28,7 +28,7 @@ Data comes from the [Carbon Dioxide Information Analysis Center (CDIAC)](http:/
 This line chart depicts the trend in total CO2 emissions over time, highlighting the significant increase in emissions, particularly in the post-industrial era.
 
 <LineChart 
-  data="https://raw.githubusercontent.com/datopian/datarich-demo/demo/data/global-co2-emissions.csv"
+  data="https://raw.githubusercontent.com/datopian/datarich-demo/main/data/global-co2-emissions.csv"
   title="Global CO2 Emissions from fossil-fuels"
   xAxis="Year"
   yAxis="Total"
@@ -43,7 +43,7 @@ The following bar chart compares emissions from different sources in 2010. It il
     $schema: "https://vega.github.io/schema/vega-lite/v5.json",
     description: "Emissions distribution in 2010",
     data: {
-      url: "https://raw.githubusercontent.com/datopian/datarich-demo/demo/data/global-co2-emissions-2010.csv",
+      url: "https://raw.githubusercontent.com/datopian/datarich-demo/main/data/global-co2-emissions-2010.csv",
     },
     width: "container",
     height: 250,
