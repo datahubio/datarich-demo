@@ -45,7 +45,7 @@ The following bar chart compares emissions from different sources in 2010. It il
     data: {
       url: "https://raw.githubusercontent.com/datopian/datarich-demo/demo/data/global-co2-emissions-2010.csv",
     },
-    width: 600,
+    width: "container",
     height: 250,
     mark: "bar",
     encoding: {
