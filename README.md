@@ -14,7 +14,7 @@ Welcome to DataRich Documents Demo!
 
 👀 [[story2|Dataset example]]
 
-## But wait, what is a DataRich document?
+## But wait, what is a data-rich document?
 
 ![[data-rich-document.png]]
 

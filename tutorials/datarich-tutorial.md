@@ -1,6 +1,6 @@
 # Tutorial 1: Publish data-rich stories with DataHub
 
-Hi, welcome to DataHub. In this tutorial, we are going to cover the basics of creating and publishing DataRich documents.
+Hi, welcome to DataHub. In this tutorial, we are going to cover the basics of creating and publishing data-rich documents.
 
 ## Steps
 
@@ -128,7 +128,7 @@ For a full list and API of available data visualisation components visit [https:
 5. Click on "Create Site".
 6. Done! Now visit your site by clicking on the URL at the top of the site settings page.
 
-[[story1|👀 See an example DataRich document]]
+[[story1|👀 See an example data-rich document rendered with DataHub]]
 ___
 
 Cool, isn't it? Get in contact with us and let us know what you think!

@@ -132,7 +132,7 @@ The `datapackage` layout will use all the data defined in the frontmatter to cre
 
 ```
 
-Of course you can combine use both the `datapackage` layout and extend it by adding other DataRich components and content below the frontmatter, in the markdown body.
+Of course you can combine use both the `datapackage` layout and extend it by adding other data visualisation components and content below the frontmatter, in the markdown body.
 
 ```markdown
 ---
@@ -170,7 +170,7 @@ For a full list and API of available data visualisation components visit [https:
 5. Click on "Create Site".
 6. Done! Now visit your site by clicking on the URL at the top of the site settings page.
 
-[[story2|👀 See an example DataRich Dataset published with DataHub]]
+[[story2|👀 See an example dataset rendered with DataHub]]
 ___
 
 Cool, isn't it? Get in contact with us and let us know what you think!
