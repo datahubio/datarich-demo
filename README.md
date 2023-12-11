@@ -1,6 +1,6 @@
-# DataRich Documents Demo
+# Data-Rich Documents Demo
 
-Welcome to DataRich Documents Demo!
+Welcome to Data-Rich Documents Demo!
 
 **Tutorials**:
 
