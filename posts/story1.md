@@ -1,5 +1,5 @@
 ---
-title: Global Temperature Trends Analysis
+title: # Global CO2 Emissions Analysis
 authors: [Jane Doe, John Smith]
 date: "2023-11-30"
 layout: blog
@@ -13,19 +13,19 @@ layout: blog
 
 ## Introduction
 
-In this analysis, we explore the global temperature trends over the past century. Utilising historical temperature data, we aim to understand how the Earth's surface temperature has changed and identify patterns that might indicate future trends.
+This analysis explores the trends in global CO2 emissions from 1751, examining the contributions from different fuel sources and other factors.
 
 ## Data Overview
 
-Our dataset comprises Land-Ocean Temperature Index from 1880 to present sourced from [NASA GISS Surface Temperature Analysis](https://data.giss.nasa.gov/gistemp/).
+Data comes from the [Carbon Dioxide Information Analysis Center (CDIAC)](http://cdiac.esd.ornl.gov/).
 
-<Table
+<FlatUiTable
 	url="https://raw.githubusercontent.com/datopian/datarich-demo/demo/data/global-co2-emissions.csv"
 />
 
-## Temperature Trends Over Time
+## Total Emissions Over Time
 
-The chart below visualises global yearly temperature means changes over the past century, highlighting the gradual increase.
+This line chart depicts the trend in total CO2 emissions over time, highlighting the significant increase in emissions, particularly in the post-industrial era.
 
 <LineChart 
   data="https://raw.githubusercontent.com/datopian/datarich-demo/demo/data/global-co2-emissions.csv"
@@ -34,6 +34,20 @@ The chart below visualises global yearly temperature means changes over the past
   yAxis="Total"
 />
 
+## Emissions by Fuel Type
+
+The following bar chart compares emissions from different sources for the most recent year available in the dataset. It illustrates the relative contribution of each source to the total emissions.
+
 ## Conclusion
 
-The data clearly indicates a significant rise in global temperatures over the past century. These trends, consistent with scientific research on climate change, underscore the urgency of addressing global warming.
+This analysis of the global CO2 emissions dataset reveals several critical insights:
+
+1. **Historical Growth in Emissions**: There has been a dramatic and continuous increase in global CO2 emissions since the onset of the industrial revolution. This trend highlights the profound impact of industrialization and the global dependence on fossil fuels.
+    
+2. **Dominance of Fossil Fuels**: The data shows a persistent reliance on fossil fuels, particularly liquid and solid fuels. Despite the growing awareness and adoption of renewable energy sources, fossil fuels remain a predominant contributor to CO2 emissions.
+    
+3. **Need for Sustainable Solutions**: The ongoing trend of rising emissions underscores the urgent need for sustainable energy solutions. Transitioning to renewable energy sources and implementing effective carbon reduction strategies are essential to mitigate the impact of climate change.
+    
+4. **Data-Driven Policy Making**: The analysis also emphasizes the importance of data-driven decision-making in addressing environmental challenges. By leveraging comprehensive datasets like this, policymakers can better understand emission trends and develop targeted strategies to reduce the global carbon footprint.
+    
+In summary, the global CO2 emissions data not only provides a historical perspective on environmental impact but also serves as a crucial tool for planning a more sustainable future. It calls for a concerted effort from governments, industries, and individuals to shift towards cleaner energy and more sustainable practices.
