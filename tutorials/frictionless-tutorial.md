@@ -115,7 +115,7 @@ frictionless:
 
 The `datapackage` layout will use all the data defined in the frontmatter to create a page with the following structure:
 
-```md
+```markdown
 {frictionless title}
 {excerpt}
 

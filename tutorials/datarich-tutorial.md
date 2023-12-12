@@ -24,57 +24,125 @@ Now, let's start with creating a `README.md` file. In this file, feel free to us
 
 Let's add a table to the `README.md` file. Under the `## Table` header in your file, add the following snippet:
 
-```
-<Table csv={`
-Year,Cost
-2018,50345.50
-2019,65272.20
-2020,48413.80
-2021,76213.50
-2022,71653.60
-`} />
+```mdx
+<FlatUiTable
+  data={[
+    {
+      age: 35,
+      firstName: "Jon",
+      id: 1,
+      lastName: "Snow",
+    },
+    {
+      age: 42,
+      firstName: "Cersei",
+      id: 2,
+      lastName: "Lannister",
+    },
+    {
+      age: 45,
+      firstName: "Jaime",
+      id: 3,
+      lastName: "Lannister",
+    },
+    {
+      age: 16,
+      firstName: "Arya",
+      id: 4,
+      lastName: "Stark",
+    },
+  ]}
+/>
 ```
 
 Here's what it's going to look like:
 
-<Table csv={`
-Year,Cost
-2018,50345.50
-2019,65272.20
-2020,48413.80
-2021,76213.50
-2022,71653.60
-`} />
+<FlatUiTable
+  data={[
+    {
+      age: 35,
+      firstName: 'Jon',
+      id: 1,
+      lastName: 'Snow'
+    },
+    {
+      age: 42,
+      firstName: 'Cersei',
+      id: 2,
+      lastName: 'Lannister'
+    },
+    {
+      age: 45,
+      firstName: 'Jaime',
+      id: 3,
+      lastName: 'Lannister'
+    },
+    {
+      age: 16,
+      firstName: 'Arya',
+      id: 4,
+      lastName: 'Stark'
+    }
+  ]}
+ />
 
 ### Add a chart
 
 Now, let's add a graph to the README file. To keep it simple, we are going to use the LineChart component in this tutorial. Add the following snippet to your README file under the `## Chart` header:
 
-```
-<LineChart data={
+```mdx
+<LineChart
+  data={[
     [
-        ["2018",50345.50],
-        ["2019",65272.20],
-        ["2020",48413.80],
-        ["2021",76213.50],
-        ["2022",71653.60]
+      '1850',
+      -0.41765878
+    ],
+    [
+      '1851',
+      -0.2333498
+    ],
+    [
+      '1852',
+      -0.22939907
+    ],
+    [
+      '1853',
+      -0.27035445
+    ],
+    [
+      '1854',
+      -0.29163003
     ]
-  }
-  />
+  ]}
+ />
 ```
 
 This is what it will look like when rendered:
 
-<LineChart data={
+<LineChart
+  data={[
     [
-        ["2018",50345.50],
-        ["2019",65272.20],
-        ["2020",48413.80],
-        ["2021",76213.50],
-        ["2022",71653.60]
+      '1850',
+      -0.41765878
+    ],
+    [
+      '1851',
+      -0.2333498
+    ],
+    [
+      '1852',
+      -0.22939907
+    ],
+    [
+      '1853',
+      -0.27035445
+    ],
+    [
+      '1854',
+      -0.29163003
     ]
-  }
-/>
+  ]}
+ />
 
 ### Final document
 
@@ -85,35 +153,68 @@ At this point, your document should look like this:
 
 ## Table
 
-<Table csv={`
-Year,Cost
-2018,50345.50
-2019,65272.20
-2020,48413.80
-2021,76213.50
-2022,71653.60
-`} />
+<FlatUiTable
+  data={[
+    {
+      age: 35,
+      firstName: 'Jon',
+      id: 1,
+      lastName: 'Snow'
+    },
+    {
+      age: 42,
+      firstName: 'Cersei',
+      id: 2,
+      lastName: 'Lannister'
+    },
+    {
+      age: 45,
+      firstName: 'Jaime',
+      id: 3,
+      lastName: 'Lannister'
+    },
+    {
+      age: 16,
+      firstName: 'Arya',
+      id: 4,
+      lastName: 'Stark'
+    }
+  ]}
+ />
 
 ## Chart
 
-<LineChart data={
+<LineChart
+  data={[
     [
-        ["2018",50345.50],
-        ["2019",65272.20],
-        ["2020",48413.80],
-        ["2021",76213.50],
-        ["2022",71653.60]
+      '1850',
+      -0.41765878
+    ],
+    [
+      '1851',
+      -0.2333498
+    ],
+    [
+      '1852',
+      -0.22939907
+    ],
+    [
+      '1853',
+      -0.27035445
+    ],
+    [
+      '1854',
+      -0.29163003
     ]
-  }
-/>
-
+  ]}
+ />
 ```
 
 We now have a README file ready to be published with DataHub!
 
 ### Optional steps
 
-You can add as many markdown files to your GitHub repository as you like, and you can freely nest them in subdirectories. You can also enhance your content with other DataRich components and markdown features.
+You can add as many markdown files to your GitHub repository as you like, and you can freely nest them in subdirectories. You can also enhance your content with other data visualisation components and markdown features.
 
 For a full list of supported markdown features visit https://flowershow.app/docs/syntax
 
