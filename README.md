@@ -59,7 +59,7 @@ And guess what? What you are reading right now is just his kind of data-rich doc
 
 Awesome, right? Even more awesome is that this chart is created by simply having the following snippet in this document:
 
-```
+```jsx
 <LineChart data={
     [
       ["1850",-0.41765878],
