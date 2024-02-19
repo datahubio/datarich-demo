@@ -5,9 +5,9 @@ Discover how to elevate your data storytelling and analysis with DataHub. This g
 ## Tutorials
 Dive into our step-by-step tutorials designed to get you started with data-rich documents:
 
-👨‍🎓 [[datarich-tutorial|Publish data-rich stories with DataHub]]: Learn how to create engaging stories that blend text and data seamlessly.
+👨‍🎓 [[datarich-tutorial|Publish data-rich stories with DataHub]]
 
-👨‍🎓 [[frictionless-tutorial|Publishing datasets made simple with DataHub]]: A straightforward guide to sharing your datasets  - just push a CSV + README to GitHub.
+👨‍🎓 [[frictionless-tutorial|Publishing datasets made simple with DataHub - just push a CSV + README to GitHub]]  
 
 ## Examples
 Explore how data-rich documents can transform your data presentation:
@@ -16,8 +16,7 @@ Explore how data-rich documents can transform your data presentation:
 
 👀 [[story2|Dataset example]]: See how datasets can be presented in an accessible, visually engaging manner.
 
-## Understanding data-rich document
-But wait, what is a data-rich document? 
+## But wait, what is a data-rich document? 
 
 ![[data-rich-document.png]]
 
@@ -75,10 +74,10 @@ Awesome, right? Even more awesome is that this chart is created by simply having
 } />
 ```
 
-**Explore the Full Source: **You can check out the full source of the data-rich document you are reading [here](https://github.com/datopian/datarich-demo).
+**Explore the Full Source:** You can check out the full source of the data-rich document you are reading [here](https://github.com/datopian/datarich-demo).
 
 ## Learn More
 
-**Supported Markdown Features:** For a full list of supported markdown features, visit [our syntax guide](https://flowershow.app/docs/syntax)
+📚 **Supported Markdown Features:** For a full list of supported markdown features, visit [our syntax guide](https://flowershow.app/docs/syntax).
 
-**Data Visualization Components:** Explore the full list and API of available data visualisation components [here](https://storybook.portaljs.org/?path=/docs/components-table--docs)
+📚 **Data Visualization Components:** Explore the full list and API of available data visualisation components [here](https://storybook.portaljs.org/?path=/docs/components-table--docs).
