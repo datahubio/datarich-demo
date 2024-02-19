@@ -2,14 +2,14 @@
 
 Discover how to elevate your data storytelling and analysis with DataHub. This guide introduces the concept of data-rich documents, provides practical tutorials, and showcases examples to illustrate their potential.
 
-**Tutorials**:
+## Tutorials
 Dive into our step-by-step tutorials designed to get you started with data-rich documents:
 
 👨‍🎓 [[datarich-tutorial|Publish data-rich stories with DataHub]]: Learn how to create engaging stories that blend text and data seamlessly.
 
 👨‍🎓 [[frictionless-tutorial|Publishing datasets made simple with DataHub]]: A straightforward guide to sharing your datasets  - just push a CSV + README to GitHub.
 
-**Examples:**
+## Examples
 Explore how data-rich documents can transform your data presentation:
 
 👀 [[story1|Data-rich story example]]: Discover the power of storytelling combined with data visualization.
